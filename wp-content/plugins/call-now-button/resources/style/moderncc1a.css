@@ -199,6 +199,22 @@
 .cnb-full.cnb-zoom-90 span {
   font-size: 90%;
 }
+
+@keyframes pulse-green {
+    0% {
+        background-color: #4CAF50;
+    }
+    50% {
+        background-color: #388E3C;
+    }
+    100% {
+        background-color: #4CAF50;
+    }
+}
+
+#callnowbutton.cnb-single {
+    animation: pulse-green 2s infinite;
+}
 .cnb-full.cnb-zoom-110 span {
   font-size: 110%;
 }
